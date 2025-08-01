@@ -1,11 +1,11 @@
 #include "init.h"
-#include "blink.h"
+#include "blinkrainbow.h"
 #include "acceleration_app.h"
 int main() {
     initBoard();
 
     // Write your code here ...
-    BlinkMain();
+    BlinkRainbowMain();
 
     return 0;
 }
