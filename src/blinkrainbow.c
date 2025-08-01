@@ -7,37 +7,40 @@
 
 
 int BlinkRainbowMain() {
-    // Declare pointers for the red, green and blue LED
+    LED_BLUE_DDR |= (1 << LED_BLUE_PIN); // Configure blue LED pin as output.
+    LED_BLUE_DOR |= (1 << LED_BLUE_PIN); // Turn LED off.
 
+    LED_RED_DDR |= (1 << LED_RED_PIN); // Configure blue LED pin as output.
+    LED_RED_DOR |= (1 << LED_RED_PIN); // Turn LED off.
 
-    // Turn analog off for red led and initialize direction and value
+    LED_GREEN_DDR |= (1 << LED_GREEN_PIN); // Configure blue LED pin as output.
+    LED_GREEN_DOR |= (1 << LED_GREEN_PIN); // Turn LED off.
 
-    // Turn analog off for green led and initialize direction and value
-
-    // Turn analog off for blue led and initialize direction and value
-
-
+    const uint32_t sleepTime = 1000000;
     // Main loop. Color order: red, green, blue
     while (1) {
+        // Clear bit -> Switch LED on
+        LED_RED_DOR &= ~(1 << LED_RED_PIN);
+        cppp_microDelay(sleepTime);
 
-        // Set Port 1 Pin 8 -> Switch blue LED off
+        // Set bit -> Switch LED off
+        LED_RED_DOR |= (1 << LED_RED_PIN);
+        cppp_microDelay(sleepTime);
 
-        // Clear Port 1 Pin 10 -> Switch red LED on
+        // Clear bit -> Switch LED on
+        LED_GREEN_DOR &= ~(1 << LED_GREEN_PIN);
+        cppp_microDelay(sleepTime);
 
-        // Delay
+        // Set bit -> Switch LED off
+        LED_GREEN_DOR |= (1 << LED_GREEN_PIN);
+        cppp_microDelay(sleepTime);
 
-        // Set Port 1 Pin 10 -> Switch red LED off
+        // Clear bit -> Switch LED on
+        LED_BLUE_DOR &= ~(1 << LED_BLUE_PIN);
+        cppp_microDelay(sleepTime);
 
-        // Clear Port B Pin 2 -> Switch green LED on
-
-
-        // Delay
-
-        // Set Port B Pin 2 -> Switch green LED off
-
-        // Clear Port 1 Pin 8 -> Switch blue LED on
-
-
-        // Delay
+        // Set bit -> Switch LED off
+        LED_BLUE_DOR |= (1 << LED_BLUE_PIN);
+        cppp_microDelay(sleepTime);
     }
 }
