@@ -32,8 +32,9 @@ void initCursor() {
     setBackgroundColor(BLACK);
 }
 
-void setCursor(const int16_t x, int16_t y) {
-    cursorX, cursorY = x, y;
+void setCursor(int16_t x, int16_t y) {
+    cursorX = x;
+    cursorY = y;
 }
 
 void setTextColor(const uint16_t c) {
@@ -116,6 +117,19 @@ void writeTextln(const char* text) {
     cursorY -= textSize * 8;
     cursorX = 0;
 }
+
+void writeCenteredText(const char* text) {
+    int len = 0;
+    while (text[len] != '\0') len++;
+
+    int textWidth = len * textSize * 6;
+
+    int startX = (WIDTH / 2) - (textWidth / 2);
+
+    setCursor(startX, (HEIGHT / 2));
+    writeText(text);
+}
+
 
 void writeNumberOnDisplay(const uint8_t* value) {
     char buffer[4];

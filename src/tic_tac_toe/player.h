@@ -12,4 +12,6 @@ Players getCurrentPlayer();
 
 void nextPlayer();
 
+void printWinner(Players winner);
+
 #endif

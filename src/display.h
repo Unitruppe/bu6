@@ -98,4 +98,6 @@ void writeNumberOnDisplayRight_s(const uint8_t* value);
 void write16BitNumberOnDisplay(const uint16_t* value, uint8_t mode);
 void write16BitNumberOnDisplay_s(const uint16_t* value, uint8_t mode);
 
+void writeCenteredText(const char* text);
+
 #endif

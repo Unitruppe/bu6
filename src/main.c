@@ -2,13 +2,14 @@
 #include "tic_tac_toe/board.h"
 
 #include "display.h"
-#include "touch.h"
+#include "delay.h"
 
 
 int main() {
     initBoard();
     initPlayerBoard();
     initPlayer();
+    initCursor();
 
     drawBoard();
 
@@ -20,10 +21,10 @@ int main() {
         nextPlayer();
     }
 
-    initCursor();
-    writeText("Finished");
+    printWinner(winner);
 
-
+    
+    cppp_delay(1000000);
 
     return 0;
 }
