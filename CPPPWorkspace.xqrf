@@ -315,9 +315,27 @@
          <CompilerOptions>-x c -std=c11 -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME) -Wall</CompilerOptions>
         </FileOptios>
        </File.16>
+       <File.17>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c -std=c11 -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME) -Wall</CompilerOptions>
+        </FileOptios>
+       </File.17>
+       <File.18>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c -std=c11 -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME) -Wall</CompilerOptions>
+        </FileOptios>
+       </File.18>
+       <File.19>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.h</FileName>
+       </File.19>
        <File.2>
         <FileName>$(IRFDIR)src\blink.h</FileName>
        </File.2>
+       <File.20>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.h</FileName>
+       </File.20>
        <File.3>
         <FileName>$(IRFDIR)src\button.h</FileName>
        </File.3>
@@ -693,9 +711,27 @@
          <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.16>
+       <File.17>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.17>
+       <File.18>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.18>
+       <File.19>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.h</FileName>
+       </File.19>
        <File.2>
         <FileName>$(IRFDIR)src\blink.h</FileName>
        </File.2>
+       <File.20>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.h</FileName>
+       </File.20>
        <File.3>
         <FileName>$(IRFDIR)src\button.h</FileName>
        </File.3>
@@ -1071,9 +1107,27 @@
          <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.16>
+       <File.17>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.17>
+       <File.18>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.18>
+       <File.19>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.h</FileName>
+       </File.19>
        <File.2>
         <FileName>$(IRFDIR)src\blink.h</FileName>
        </File.2>
+       <File.20>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.h</FileName>
+       </File.20>
        <File.3>
         <FileName>$(IRFDIR)src\button.h</FileName>
        </File.3>
@@ -1449,9 +1503,27 @@
          <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.16>
+       <File.17>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.17>
+       <File.18>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.18>
+       <File.19>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.h</FileName>
+       </File.19>
        <File.2>
         <FileName>$(IRFDIR)src\blink.h</FileName>
        </File.2>
+       <File.20>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.h</FileName>
+       </File.20>
        <File.3>
         <FileName>$(IRFDIR)src\button.h</FileName>
        </File.3>
@@ -1827,9 +1899,27 @@
          <CompilerOptions>-x c  -std=c11 -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.16>
+       <File.17>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c  -std=c11 -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.17>
+       <File.18>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c  -std=c11 -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.18>
+       <File.19>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.h</FileName>
+       </File.19>
        <File.2>
         <FileName>$(IRFDIR)src\blink.h</FileName>
        </File.2>
+       <File.20>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.h</FileName>
+       </File.20>
        <File.3>
         <FileName>$(IRFDIR)src\button.h</FileName>
        </File.3>
@@ -2205,9 +2295,27 @@
          <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
         </FileOptios>
        </File.16>
+       <File.17>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.17>
+       <File.18>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-x c   -mcpu=cortex-m4  -mthumb $(DEFINES) $(INCLUDES)  -g3 -c -I $(IRFDIR) -o $(NOEXT).o $(EDNAME)</CompilerOptions>
+        </FileOptios>
+       </File.18>
+       <File.19>
+        <FileName>$(IRFDIR)src\tic_tac_toe\board.h</FileName>
+       </File.19>
        <File.2>
         <FileName>$(IRFDIR)src\blink.h</FileName>
        </File.2>
+       <File.20>
+        <FileName>$(IRFDIR)src\tic_tac_toe\player.h</FileName>
+       </File.20>
        <File.3>
         <FileName>$(IRFDIR)src\button.h</FileName>
        </File.3>
