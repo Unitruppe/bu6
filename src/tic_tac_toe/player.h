@@ -8,6 +8,8 @@ typedef enum {
 
 void initPlayer();
 
+Players getCurrentPlayer();
+
 void nextPlayer();
 
 #endif

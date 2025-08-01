@@ -1,22 +1,28 @@
-uint8_t currentPlayer;
+#include "player.h"
+
+Players currentPlayer;
 
 void initPlayer(){
-    current_player = 0;
+    currentPlayer = 0;
+}
+
+Players getCurrentPlayer() {
+    return currentPlayer;
 }
 
 void nextPlayer() {
-    current_player = (current_player + 1) % 2;
+    currentPlayer = (currentPlayer + 1) % 2;
 }
 
-void drawChar(){
-    if(current_player == 0){
+// void drawChar(){
+//     if(currentPlayer == 0){
         
-    }
+//     }
 
-    else {
+//     else {
 
-    }
-}
+//     }
+// }
 
 
 

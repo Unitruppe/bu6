@@ -1,10 +1,8 @@
 #include "init.h"
-#include "button.h"
-#include "acceleration_app.h"
-
-#include "gfx.h"
-#include "display.h"
 #include "tic_tac_toe/board.h"
+
+#include "display.h"
+#include "touch.h"
 
 
 int main() {
@@ -12,11 +10,20 @@ int main() {
     initPlayerBoard();
     initPlayer();
 
-    setField(0,0, ONE);
-
-    setField(0,1, TWO);
-
     drawBoard();
+
+    Players winner;
+    while(!didSomeoneWin(&winner)){
+        //debugTouch_s();
+        Players current = getCurrentPlayer();
+        while(!drawCell(current));
+        nextPlayer();
+    }
+
+    initCursor();
+    writeText("Finished");
+
+
 
     return 0;
 }
